@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+@media only screen and (max-width : 418px ){
+    .border {
+        visibility: collapse;
+    }
+    .border a {
+        visibility: collapse;
+    }
+    .border a:hover {
+        visibility: collapse;
+    }
+}
+
+.border {
+    justify-content: flex-end;
+    gap: 20px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.border a{
+    color: white;
+    font-size: 17px;
+}
+
+.border a:hover {
+    color: grey;
+    transition: 0.5s;
+}
